@@ -1,0 +1,668 @@
+body{
+    margin: 0;
+    
+}
+nav{
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(92, 92, 231);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    list-style: none;
+
+}
+.fa-solid{
+    color: white;
+    position: absolute;
+    left:0%;
+    cursor: pointer;
+}
+#lo{
+    color: blue;
+    background-color: white;
+    padding: 5px 25px;
+    position:absolute;
+    left:55%;
+    cursor: pointer;
+}
+#lo:hover{
+    transform: scale(1.04);
+}
+#aa{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left:20%;
+}
+#bb{
+    position: absolute;
+    left:65%;
+}
+#cc{
+    position: absolute;
+    left: 80%;
+}
+#dd{
+    position: absolute;
+    left: 93%;
+}
+.fa-solid{
+    position: absolute;
+    left:90%;
+}
+#box{
+    position: absolute;
+    left:28%;
+    padding: 8px 65px;
+    cursor: pointer;
+}
+p{
+    font-size: 10px;
+    cursor: pointer;
+}
+article{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+#a{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: url("../CSS/cssimages/istockphoto-1198965868-612x612-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    animation-name:gimage;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: o.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes gimage {
+0%{
+background-color: rgb(131, 182, 78);
+}
+100%{
+background-color: rgb(206, 65, 140);
+}
+}
+#a:hover{
+    transform: scale(1.04);
+}
+#b{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: url("../CSS/cssimages/phoneimage-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    animation-name:mimage;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: o.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes mimage {
+from{
+background-color: rgb(131, 182, 78);
+}
+to{
+background-color: rgb(206, 65, 140);
+}
+}
+#b:hover{
+    transform: scale(1.04);
+}
+
+#c{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: url("../CSS/cssimages/fashion-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    animation-name:fimage;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: o.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fimage {
+from{
+background-color: rgb(131, 182, 78);
+}
+to{
+background-color: rgb(206, 65, 140);
+}
+}
+#c:hover{
+    transform: scale(1.04);
+}
+
+#d{
+   height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: url("../CSS/cssimages/electronics-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    animation-name:eimage;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: o.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes eimage {
+from{
+background-color: rgb(131, 182, 78);
+}
+to{
+background-color: rgb(206, 65, 140);
+}
+}
+#d:hover{
+    transform: scale(1.04);
+}
+
+#e{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: url("../CSS/cssimages/furniture-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    animation-name:fimage;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: o.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fimage {
+from{
+background-color: rgb(131, 182, 78);
+}
+to{
+background-color: rgb(206, 65, 140);
+}
+}
+#e:hover{
+    transform: scale(1.04);
+}
+
+#f{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: url("../CSS/cssimages/appliances-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    animation-name:aimage;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: o.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes aimage {
+from{
+background-color: rgb(131, 182, 78);
+}
+to{
+background-color: rgb(206, 65, 140);
+}
+}
+#f:hover{
+    transform: scale(1.04);
+}
+
+#g{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: url("../CSS/cssimages/travel-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    animation-name:timage;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: o.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes timage {
+from{
+background-color: rgb(131, 182, 78);
+}
+to{
+background-color: rgb(206, 65, 140);
+}
+}
+#g:hover{
+    transform: scale(1.04);
+}
+
+#h{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: url("../CSS/cssimages/beauty_and_toys-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    animation-name:bimage;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: o.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes bimage {
+from{
+background-color: rgb(131, 182, 78);
+}
+to{
+background-color: rgb(206, 65, 140);
+}
+}
+#h:hover{
+    transform: scale(1.04);
+}
+
+#i{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: url("../CSS/cssimages/two_wheelers-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    animation-name:timage;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: o.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes timage {
+from{
+background-color: rgb(131, 182, 78);
+}
+to{
+background-color: rgb(206, 65, 140);
+}
+}
+#i:hover{
+    transform: scale(1.04);
+}
+
+h1{
+color:white;
+background-color:red ;
+text-align: center;
+letter-spacing: 4px;
+animation-name: text;
+animation-duration: 10s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+cursor: pointer;
+}
+@keyframes text {
+0%,21%,35%,45%,63%,80.5%,93.3%,100%{
+color:yellow;
+
+}
+1%,5%,10%,13%,15.5%,20%,50%,70%,85%,90%,95%,100%{
+color: red;
+}
+}
+ul{
+display: flex;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+cursor: pointer;
+}
+#za{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    background-image: url("../CSS/cssimages/jeans1-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+    
+#za:hover{
+    transform:scale(1.04);
+}
+
+#zb{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    background-image: url("../CSS/cssimages/jeans2-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+#zb:hover{
+    transform:scale(1.04);
+}
+
+
+#zc{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    background-image: url("../CSS/cssimages/jeans3-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    
+}
+#zc:hover{
+    transform:scale(1.04);
+}
+
+
+ol{
+display: flex;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+cursor: pointer;
+} 
+#zd{
+   height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    background-image: url("../CSS/cssimages/blazer1-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+#zd:hover{
+    transform:scale(1.04);
+}
+
+
+#ze{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    background-image: url("../CSS/cssimages/blazer2-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    
+}
+#ze:hover{
+    transform:scale(1.04);
+}
+
+
+#zf{
+   height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    background-image: url("../CSS/cssimages/blazer3-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+#zf:hover{
+    transform:scale(1.04);
+}
+
+
+#zg{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    background-image: url("../CSS/cssimages/shoes-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+#zg:hover{
+    transform:scale(1.04);
+}
+
+
+#zh{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    background-image: url("../CSS/cssimages/watch-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    
+}
+#zh:hover{
+    transform:scale(1.04);
+}
+
+
+#zi{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    background-image: url("../CSS/cssimages/chain-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    
+}
+#zi:hover{
+    transform:scale(1.04);
+}
+
+
+#zj{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    background-image: url("../CSS/cssimages/t1-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+#zj:hover{
+    transform:scale(1.04);
+}
+
+
+
+#zk{
+   height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    background-image: url("../CSS/cssimages/t2-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+#zk:hover{
+    transform:scale(1.04);
+}
+
+
+
+#zl{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    background-image: url("../CSS/cssimages/t3-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+#zl:hover{
+    transform:scale(1.04);
+}
+
+
+section{
+display: flex;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+cursor: pointer;
+
+}
+h3{
+display: flex;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+cursor: pointer;
+} 
+pre{
+color: rgb(21, 21, 110);
+font-size: 15px;
+font-weight: bold;
+cursor: pointer;
+}
+#ku{
+margin-right: 0%;
+color: blue;
+cursor: pointer;
+}
+
+h2{
+height: 60vh;
+width: 100vw;
+cursor: pointer;
+background-image: url("../CSS/cssimages/s1image-removebg-preview.png");
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+animation-name: image;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+@keyframes image {
+0%{
+background-image: url("../CSS/cssimages/s2image.jpg");
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+}
+25%{
+background-image: url("../CSS/cssimages/s3image.jpg");
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+
+}
+50%{
+background-image: url("../CSS/cssimages/s4image-removebg-preview.png");        
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+
+}
+75%{
+background-image: url("../CSS/cssimages/s5image.jpg");
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+
+}
+100%{
+background-image: url("../CSS/cssimages/s6image.jpg");
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+
+}
+
+} 
+button{
+background-color: green;
+color: white;
+cursor: pointer;
+padding: 5px 30px;
+}
+button:hover{
+    transform: scale(1.04);
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap:20px;
+    grid-row-gap:30px;
+    cursor: pointer;
+
+}
+.item img{
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    transition:0.2s ease;
+}
+.item img:hover{
+    transform: scale(1.04);
+}
+.item h4{
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.item button{
+    padding: 5px 30px;
+    border:none;
+    outline:none;
+    background-color: green;
+    color:white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+}
+.item button:hover{
+    transform: scale(1.04);
+}
+h4{
+    font-size: 20px;
+}
+#yy{
+    height: 100px;
+    width: 100vw;
+    list-style: none;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+#zz{
+    position: absolute;
+    left:8%;
+}
+#nn{
+    position: absolute;
+    left: 36%;
+}
+#mm{
+    position: absolute;
+    left:61%;
+}
+#kk{
+    position: absolute;
+    left: 87%;
+}
+  #bm{
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 50px;
+    position: absolute;
+    left: 49%;
+    top:43%;
+}
